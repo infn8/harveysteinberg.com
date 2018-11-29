@@ -1,0 +1,150 @@
+@charset "UTF-8";
+	div, body, #branding h1, #branding h1 a, #branding h2, p#contactUs, p#contactUs a, #contactInfo ul, #contactInfo li 
+		{
+		margin:0px;
+		padding:0px;
+		}
+	div#branding
+		{
+		background:#FFFFFF;
+		position:fixed;
+		width:100%;
+		height:100px;
+		top:0px;
+		left:0px;
+		}
+	div#branding h1
+		{
+		position:absolute;
+		width:80%;
+		height:100px;
+		top:0%;
+		left:20%;
+		background: url(../images/layout/topBar_repeatX.jpg) bottom left repeat-x #FFFFFF;
+		}
+	div#branding h1 a
+		{
+		background:url(../images/layout/harveySteinberg.jpg) bottom left no-repeat;
+		position:absolute;
+		width:432px;
+		height:40px;
+		bottom:0%;
+		left:0%;
+		overflow:hidden;
+		display:block;
+		text-indent:-5000px;
+		}
+	div#branding h2
+		{
+		position:absolute;
+		width:154px;
+		height:21px;
+		top:100px;
+		right:10px;
+		background:url(../images/layout/M.Sc.Dip.Psych.jpg) top left no-repeat #FFFFFF;
+		overflow:hidden;
+		text-indent:-5000px;
+		}
+	#mainNav
+		{
+		position:fixed;
+		top:100px;
+		left:0px;
+		width:20%
+		}
+	#mainNav ul, #mainNav li
+		{
+		list-style:none;
+		}
+	#mainNav li
+		{
+		float:right;
+		clear:right;
+		margin:0em 2em 1em 0em;
+		}
+	#mainNav li a
+		{
+		color:#000000;
+		}
+	#contentBody
+		{
+		margin-top:120px;
+		margin-bottom:50px;
+		margin-left:20%;
+		margin-right:210px;
+		text-align:justify;
+		}
+	#contactInfo
+		{
+		background:url(../images/layout/bottomBar_repeatX.jpg) top left repeat-x #FFFFFF;
+		position:fixed;
+		width:100%;
+		height:30px;
+		bottom:0px;
+		left:0px;
+		padding-left:20%;
+		}
+	#contactInfo ul, #contactInfo li 
+		{
+		list-style:none;
+		line-height:26px;
+		}
+	#contactInfo li 
+		{
+		float:left;
+		margin-right:2em;
+		margin-top:4px;
+		}
+	p#contactUs a
+		{
+		position:fixed;
+		display:block;
+		width:200px;
+		height:274px;
+		bottom:0px;
+		right:0px;
+		background:url(../images/layout/harveySteinbergBottomPic.jpg) bottom right no-repeat;
+		overflow:hidden;
+		text-indent:-5000px;
+		}
+@charset "UTF-8";
+/* CSS Document */
+/*
+	Additional styling
+*************************/
+body
+	{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	line-height:1.25;
+	}
+
+h3
+	{
+	margin:1em;
+	padding:1em;
+	line-height:1.5;
+	font-weight:normal;
+	background:#C0C0FF;
+	background:#0000FF;
+	border:2px solid #000;
+	color:#FFF;
+	-moz-border-radius-topright:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	-webkit-border-bottom-left-radius:20px;
+	}
+	
+a, li a
+	{
+	font-weight:bold;
+	text-decoration:none;
+	color:#000000;
+	}
+#contactInfo a
+	{
+	font-weight:normal;
+	}
+a:hover
+	{
+	text-decoration:underline;
+	}
